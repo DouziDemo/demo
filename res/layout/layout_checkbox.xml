@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_checkbox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkboxstyle"
+        android:text="我同意如上条款" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aihao" />
+
+    <CheckBox
+        android:id="@+id/checkbox_nanqiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkboxstyle"
+        android:text="篮球" />
+
+    <CheckBox
+        android:id="@+id/checkbox_pingpeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkboxstyle"
+        android:text="乒乓球" />
+
+    <CheckBox
+        android:id="@+id/checkbox_zhuqiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkboxstyle"
+        android:text="足球" />
+
+    <TextView
+        android:id="@+id/textview_checkbox_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

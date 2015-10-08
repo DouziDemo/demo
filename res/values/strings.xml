@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">demo</string>
+    <string name="app_name_activity_lifecycle">Activity生命周期</string>
+    <string name="string_tr">我是一个程序员</string>
+	<string name="str_checkbox">一、注册信息和隐私保护\n二、使用规则\n三、服务内容\n四、知识产权和其他合法权益</string>
+	<string name="aihao">爱好调查页面例子：</string>
+	
+	<string name="sub1">1.你了解Window操作系统吗？</string>
+	<string name="sub2">2.你了解编程语言么？</string>
+	<string name="sub3">3.你知道计算机中的基本进制是什么吗？</string>
+	
+	<string name="sub1_opt1">A、精通</string>
+	<string name="sub1_opt2">A、一般</string>
+	<string name="sub1_opt3">A、不了解</string>
+	
+	<string name="sub2_opt1">A、精通各种语言</string>
+	<string name="sub2_opt2">A、了解C语言</string>
+	<string name="sub2_opt3">A、只会说汉语</string>
+	
+	<string name="sub3_opt1">A、二进制</string>
+	<string name="sub3_opt2">A、十进制</string>
+	<string name="sub3_opt3">A、十六进制</string>
+	
+</resources>

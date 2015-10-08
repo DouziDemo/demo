@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="声音开关" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="声音关闭"
+        android:textOn="声音开启" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音量调节" />
+
+    <!-- Seekbar还有一些常用属性
+    1.progressDrawable:设置拉动条的样式
+    2.thumb:设置SeekBar中滑块的图片
+    3.secondaryProgress：代表第二进度的大小。
+     -->
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="星级评价" />
+    <!-- RatingBar还有一些常用属性
+    1.style:设置RatingBar的样式
+    2.rating:设置RatingBar的默认评分
+    3.isIndicator:设置RatingBar是否是一个指示器，如果是的话，用户就无法进行滑动修改了。
+     -->
+    <RatingBar android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:stepSize="0.5"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="页面加载中效果" />
+    
+    <!-- android系统一默认样式 
+    1. Widget.ProgressBar.Horizontal 水平ProgressBar的进度条效果
+    2. Widget.ProgressBar.Small 小圆形的进度条效果
+    3. Widget.ProgressBar.Large 大圆形的进度条效果
+    4. Widget.ProgressBar.Inverse 普通进度条反转
+    5. Widget.ProgressBar.Small.Inverse 小进度条反转
+    6. Widget.ProgressBar.Large.Inverse 大进度条反转 -->
+    <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar"/>
+    
+    <Button 
+        android:id="@+id/button_dialog_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog进度条"/>
+</LinearLayout>
