@@ -99,7 +99,8 @@ public class ActivityActivity extends Activity
 			}
 		});
 
-		Button activityLifecycleButton = (Button) findViewById(R.id.button_activity_lifecycle);
+		Button activityLifecycleButton = (Button) findViewById(
+				R.id.button_activity_lifecycle);
 
 		activityLifecycleButton.setOnClickListener(new OnClickListener()
 		{
@@ -113,9 +114,10 @@ public class ActivityActivity extends Activity
 				startActivity(_Intent);
 			}
 		});
-		
-		//开关、进度条、星级评价等
-		Button toggleButtonButton = (Button) findViewById(R.id.button_toggle_button);
+
+		// 开关、进度条、星级评价等
+		Button toggleButtonButton = (Button) findViewById(
+				R.id.button_toggle_button);
 
 		toggleButtonButton.setOnClickListener(new OnClickListener()
 		{
@@ -129,8 +131,8 @@ public class ActivityActivity extends Activity
 				startActivity(_Intent);
 			}
 		});
-		
-		//时间
+
+		// 时间
 		Button dateButton = (Button) findViewById(R.id.button_date);
 
 		dateButton.setOnClickListener(new OnClickListener()
@@ -141,6 +143,46 @@ public class ActivityActivity extends Activity
 			{
 				Intent _Intent = new Intent(ActivityActivity.this,
 						DateActivity.class);
+				startActivity(_Intent);
+			}
+		});
+
+		// 计时器
+		Button chronometerButton = (Button) findViewById(
+				R.id.button_chronometer);
+
+		chronometerButton.setOnClickListener(new OnClickListener()
+		{
+
+			@Override
+			public void onClick(View v)
+			{
+				Intent _Intent = new Intent(ActivityActivity.this,
+						ChronometerActivity.class);
+				startActivity(_Intent);
+			}
+		});
+
+		// 按钮
+		Button buttonButton = (Button) findViewById(R.id.button_button);
+
+		setClickListener(buttonButton, ButtonActivity.class);
+	}
+
+	/**
+	 * 为控件设置点击监听
+	 * @param targetView
+	 * @param class1
+	 */
+	private void setClickListener(View targetView, final Class<?> class1)
+	{
+		targetView.setOnClickListener(new OnClickListener()
+		{
+
+			@Override
+			public void onClick(View v)
+			{
+				Intent _Intent = new Intent(ActivityActivity.this, class1);
 				startActivity(_Intent);
 			}
 		});

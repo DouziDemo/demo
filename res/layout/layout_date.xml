@@ -1,37 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
 
-    <TextView
-        android:id="@+id/textview_date"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="请输入您的生日......" />
+        android:orientation="vertical" >
 
-    <!-- DatePicker常见属性
+        <TextView
+            android:id="@+id/textview_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入您的生日......" />
+
+        <!--
+    DatePicker常见属性
     1.calendarViewShown:是否显示日历栏
     2.android:endYear:用于设置最终的月分
     3.android:maxDate:用于设置最大的日期
     4.android:minDate:用于设置最小的日期
     5.android:spinnersShown:用于设置spinner是否显示。
     6.android:startYear:用于设置开始年份
-     -->
-    <DatePicker
-        android:id="@+id/datepicker_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    
-    
-    <TextView
-        android:id="@+id/textview_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="请选择时间......" />
-    <TimePicker 
-        android:id="@+id/timepicker_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        -->
 
-</LinearLayout>
+        <DatePicker
+            android:id="@+id/datepicker_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请选择时间......" />
+
+        <TimePicker
+            android:id="@+id/timepicker_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- 显示日期弹出框 -->
+        <TextView
+            android:id="@+id/textview_setdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入准确的时间......" />
+
+        <Button
+            android:id="@+id/button_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置日期" />
+
+        <Button
+            android:id="@+id/button_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置日间" />
+        
+        <!-- 定义AnalogClock控件  -->
+        <AnalogClock 
+            android:id="@+id/analogclock01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!-- 定义DigitalClock控件 -->
+        <DigitalClock
+            android:id="@+id/digitalclock01" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

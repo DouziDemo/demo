@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
@@ -58,7 +58,7 @@
         </activity>
          <activity
             android:name=".ActivityLifecycleActivity"
-            android:label="@string/app_name_activity_lifecycle" >
+            android:label="@string/app_name_activity_lifecycle" android:configChanges="orientation|screenSize">
         </activity>
         
          <activity
@@ -69,6 +69,11 @@
             android:name=".DateActivity"
             android:label="时间" >
         </activity>
+        <activity android:name=".ChronometerActivity"
+            android:label="计时器"></activity>
+        
+        <activity android:name=".ButtonActivity"
+            android:label="按钮"></activity>
     </application>
 
 </manifest>
