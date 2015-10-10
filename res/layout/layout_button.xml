@@ -15,43 +15,43 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/button"
+        style="?android:attr/button"
         android:text="普通按钮的效果" />
     
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonBarButtonStyle"
+        style="?android:attr/buttonBarButtonStyle"
         android:text="按钮栏的按钮效果" />
      
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonBarStyle"
+        style="?android:attr/buttonBarStyle"
         android:text="按钮栏效果" />
      
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonStyle"
+        style="?android:attr/buttonStyle"
         android:text="按钮的效果" />
      
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonStyleInset"
+        style="?android:attr/buttonStyleInset"
         android:text="插入按钮的效果" />
      
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonStyleSmall"
+        style="?android:attr/buttonStyleSmall"
         android:text="小型按钮的效果" />
      
      <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:attr/buttonStyleToggle"
+        style="?android:attr/buttonStyleToggle"
         android:text="选项按钮的效果" />
 
 </LinearLayout>

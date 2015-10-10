@@ -167,6 +167,10 @@ public class ActivityActivity extends Activity
 		Button buttonButton = (Button) findViewById(R.id.button_button);
 
 		setClickListener(buttonButton, ButtonActivity.class);
+		
+		//任务栈的例子(先进后出原则)
+		Button taskButton = (Button)findViewById(R.id.button_task);
+		setClickListener(taskButton, AActivity.class);
 	}
 
 	/**

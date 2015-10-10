@@ -1,9 +1,5 @@
 package com.douzi.demo;
 
-import java.net.URI;
-
-import org.apache.http.client.utils.URIUtils;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -105,6 +101,27 @@ public class IntentActivity extends Activity
 				startActivity(_Intent);
 			}
 		});
+		
+		//通过IntentFilter直接拨号
+		//需要权限 <uses-permission android:name="android.permission.SEND_SMS" />
+		Button intentFilterSMSActivityButton = (Button) findViewById(
+				R.id.button_intent_filter_sms);
+		intentFilterSMSActivityButton.setOnClickListener(new OnClickListener()
+		{
+
+			@Override
+			public void onClick(View v)
+			{
+				Intent _Intent = new Intent();
+				_Intent.setAction(Intent.ACTION_SENDTO);
+				_Intent.setData(Uri.parse("smsto:13800000000"));
+				_Intent.putExtra("sms_body", "调用发短信界面");
+				startActivity(_Intent);
+			}
+		});
+		
+		
+		
 	}
 
 	@Override
