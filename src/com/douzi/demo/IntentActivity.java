@@ -1,6 +1,7 @@
 package com.douzi.demo;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -116,6 +117,23 @@ public class IntentActivity extends Activity
 				_Intent.setAction(Intent.ACTION_SENDTO);
 				_Intent.setData(Uri.parse("smsto:13800000000"));
 				_Intent.putExtra("sms_body", "调用发短信界面");
+				startActivity(_Intent);
+			}
+		});
+		
+		//调用第三方APP中的Activity
+		Button thirdAppActivityButton = (Button) findViewById(
+				R.id.button_third_app);
+		thirdAppActivityButton.setOnClickListener(new OnClickListener()
+		{
+	
+			@Override
+			public void onClick(View v)
+			{
+				ComponentName com = new ComponentName("com.third.app",
+						"com.third.app.XXActivity");
+				Intent _Intent = new Intent();
+				_Intent.setComponent(com);
 				startActivity(_Intent);
 			}
 		});

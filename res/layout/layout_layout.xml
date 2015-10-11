@@ -5,21 +5,21 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/button_activity"
+        android:id="@+id/button_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Activity" />
+        android:text="用户注册页面" />
     
     <Button
-        android:id="@+id/button_layout"
+        android:id="@+id/button_student"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Layout" />
+        android:text="学生成绩列表页面" />
     
     <Button
-        android:id="@+id/button_sundy_ui"
+        android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sundy UI" />
+        android:text="登陆页面" />
 
 </LinearLayout>

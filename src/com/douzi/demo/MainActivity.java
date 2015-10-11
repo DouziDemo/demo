@@ -1,5 +1,7 @@
 package com.douzi.demo;
 
+import com.douzi.demo.utils.DouziUtil;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,5 +30,12 @@ protected void onCreate(Bundle savedInstanceState)
 			startActivity(_Intent);
 		}
 	});
+	
+	
+	DouziUtil.setOnclickListener(findViewById(R.id.button_layout),
+			MainActivity.this, LayoutActivity.class);
+	
+	DouziUtil.setOnclickListener(findViewById(R.id.button_sundy_ui),
+			MainActivity.this, SundyUIActivity.class);
 }
 }
