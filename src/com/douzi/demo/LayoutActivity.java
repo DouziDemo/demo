@@ -29,5 +29,17 @@ public class LayoutActivity extends Activity
 		//登陆页面
 		DouziUtil.setOnclickListener(findViewById(R.id.button_login),
 				LayoutActivity.this, LoginActivity.class);
+		//图片相框效果
+		DouziUtil.setOnclickListener(findViewById(R.id.button_frame_layout),
+				LayoutActivity.this, FrameLayoutActivity.class);
+		
+		//三字经？？长文字
+		DouziUtil.setOnclickListener(findViewById(R.id.button_scrollview),
+				LayoutActivity.this, ScrollViewActivity.class);
+		//计算器（LinearLayout组合）
+		DouziUtil.setOnclickListener(findViewById(R.id.button_calculator),
+				LayoutActivity.this, CalculatorActivity.class);
+		
+		
 	}
 }

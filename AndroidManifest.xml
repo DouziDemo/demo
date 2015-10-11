@@ -99,6 +99,15 @@
          
          <activity android:name=".sundy.graphic.HelloGameControlActivity"
             android:label="HelloGameControlActivity"></activity>
+         
+         <activity android:name=".FrameLayoutActivity"
+            android:label="FrameLayoutActivity"></activity>
+         
+         <activity android:name=".ScrollViewActivity"
+            android:label="ScrollViewActivity"></activity>
+         <activity android:name=".CalculatorActivity"
+            android:label="CalculatorActivity"></activity>
+         
     </application>
 
 </manifest>

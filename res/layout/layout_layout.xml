@@ -8,18 +8,36 @@
         android:id="@+id/button_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="用户注册页面" />
+        android:text="用户注册页面(LinearLayout)" />
     
     <Button
         android:id="@+id/button_student"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="学生成绩列表页面" />
+        android:text="学生成绩列表页面(TableLayout)" />
     
     <Button
         android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登陆页面" />
+        android:text="登陆页面(RelativeLayout)" />
+    
+    <Button
+        android:id="@+id/button_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片相框效果（FrameLayout）" />
+    
+    <Button
+        android:id="@+id/button_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三字经（ScrollView）" />
+    
+    <Button
+        android:id="@+id/button_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算器（LinearLayout组合）" />
 
 </LinearLayout>

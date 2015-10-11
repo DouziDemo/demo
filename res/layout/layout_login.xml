@@ -35,4 +35,22 @@
         android:layout_below="@id/edittext_password"
         android:layout_toLeftOf="@id/button_cencal"
         android:text="登陆"/>
+    
+    <!--
+    	android:layout_above:该控件 的位置在给定ID的控件的上面。
+    	android:layout_below:该控件 的位置在给定ID的控件的下面。
+    	android:layout_toLeftOf:该控件的位置在给定ID的控件的左面。
+    	android:layout_toRightOf:该控件的位置在给定ID的控件的右面。
+    	android:layout_alignBaseline:该控件与给定ID的控件baseline对齐。
+    	android:layout_alignTop:该控件与给定ID的控件顶部对齐。
+    	android:layout_alignBottom:该控件与给定ID的控件底部对齐。
+    	android:layout_alignLeft:该控件与给定ID的控件左对齐。
+    	android:layout_alignRight:该控件与给定ID的控件右对齐。
+    	android:layout_alignParentTop:该控件与其父控件的顶部对齐。
+    	android:layout_alignParentBottom:该控件与父控件的底部对齐
+    	android:layout_alignParentLeft:该控件与其父控件的左对齐。
+    	android:layout_centerHorizontal:将该控件水平居中。
+    	android:layout_centerVertical:将该控件的垂直居中。
+    	android:layout_centerInParent:将该控件相对于父控件居中。 
+     -->
 </RelativeLayout>
