@@ -154,4 +154,24 @@
 	    
 	</string>
 	
+	<string-array name="System">
+	    <item>Windows</item>
+	    <item >Linux</item>
+	    <item >Unix</item>
+	    <item >Google</item>
+	    <item >Other</item>
+	</string-array>
+	
+	<string-array name="seat">
+	    <item>A1满</item>
+	    <item>A2满</item>
+	    <item>A3满</item>
+	    <item>B1空</item>
+	    <item>B2空</item>
+	    <item>B3满</item>
+	    <item>C1空</item>
+	    <item>C2满</item>
+	    <item>C3空</item>
+	</string-array>
+	
 </resources>

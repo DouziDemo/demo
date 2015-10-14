@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 如果输入一个字母对于数据的查询量比较大的时候，设置andorid:completionThreshold属性，就是当用户输入一定数量的字符后，再开启比对提示功能 -->
+
+    <AutoCompleteTextView
+        android:id="@+id/autocompletetextview01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="3" />
+
+</LinearLayout>

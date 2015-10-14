@@ -171,6 +171,18 @@ public class ActivityActivity extends Activity
 		//任务栈的例子(先进后出原则)
 		Button taskButton = (Button)findViewById(R.id.button_task);
 		setClickListener(taskButton, AActivity.class);
+		//自动补全
+		Button autocompleteButton = (Button)findViewById(R.id.button_autocomplete);
+		setClickListener(autocompleteButton, AutoCompleteActivity.class);
+		//多匹配自动补全
+		Button multiautocompleteButton = (Button)findViewById(R.id.button_multiautocomplete);
+		setClickListener(multiautocompleteButton, MultiAutoCompleteActivity.class);
+		//下拉框
+		Button spinnerButton = (Button)findViewById(R.id.button_spinner);
+		setClickListener(spinnerButton, SpinnerActivity.class);
+		
+		
+		
 	}
 
 	/**
