@@ -139,6 +139,11 @@
             android:name=".SpinnerActivity"
             android:label="SpinnerActivity" >
         </activity>
+        
+        <activity
+            android:name=".GridViewActivity"
+            android:label="GridViewActivity" >
+        </activity>
     </application>
 
 </manifest>

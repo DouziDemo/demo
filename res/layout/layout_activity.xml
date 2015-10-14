@@ -93,7 +93,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="下拉框（spinner）" />
-        
+        <Button
+            android:id="@+id/button_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="表格(gridView)" />
     </LinearLayout>
 
 </ScrollView>

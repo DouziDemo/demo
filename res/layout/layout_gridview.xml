@@ -2,12 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
-<GridView
-    android:id="@+id/gridview_seat"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:numColumns="3" >
-</GridView>
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertival_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertival_margin" >
+
+     <!-- 
+     verticalSpacing:设置两行之间的距离
+     horizontalSpacing：设置两列之间的距离
+     stretchMode：设置缩放的形式
+      --> 
+    <GridView
+        android:id="@+id/gridview_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3">
+    </GridView>
+
 </LinearLayout>

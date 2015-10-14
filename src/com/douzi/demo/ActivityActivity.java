@@ -181,6 +181,10 @@ public class ActivityActivity extends Activity
 		Button spinnerButton = (Button)findViewById(R.id.button_spinner);
 		setClickListener(spinnerButton, SpinnerActivity.class);
 		
+		//表格
+		Button gridViewButton = (Button)findViewById(R.id.button_gridview);
+		setClickListener(gridViewButton, GridViewActivity.class);
+		
 		
 		
 	}
