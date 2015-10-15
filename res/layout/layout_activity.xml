@@ -104,6 +104,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="文件表格(adapter自定义)" />
+        
+        <Button
+            android:id="@+id/button_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学生列表（ListView）" />
+        
     </LinearLayout>
 
 </ScrollView>

@@ -174,4 +174,12 @@
 	    <item>C3空</item>
 	</string-array>
 	
+	<string-array name="names">
+	    <item>张三</item>
+	    <item>李四</item>
+	    <item>王五</item>
+	    <item>赵六</item>
+	    <item>田七</item>
+	</string-array>
+	
 </resources>

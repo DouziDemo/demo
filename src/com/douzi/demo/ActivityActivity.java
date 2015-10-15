@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class ActivityActivity extends Activity
 {
@@ -187,6 +186,10 @@ public class ActivityActivity extends Activity
 		//表格(自定义apater)
 		Button gridViewFilesButton = (Button)findViewById(R.id.button_gridview_files);
 		setClickListener(gridViewFilesButton, GridViewFilesActivity.class);
+		
+		//listview
+		Button listViewButton = (Button)findViewById(R.id.button_listview);
+		setClickListener(listViewButton, ListViewActivity.class);
 		
 		
 		
