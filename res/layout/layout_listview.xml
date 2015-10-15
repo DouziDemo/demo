@@ -3,6 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+    <!-- 
+    	chioceMode: 规定此ListView可以选中其中的一项或多项
+    	divider:设置此ListView每个item之间的分割线的颜色
+    	dividerHeight:设置此ListView每个item之间的距离
+    	footerDividersEnabled:设置在最后一项之后是否画出分割线
+    	headerDividersenabledd:设置在第一项之前是否画出分割线
+     -->
     <ListView android:id="@+id/listview_student"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -191,6 +191,14 @@ public class ActivityActivity extends Activity
 		Button listViewButton = (Button)findViewById(R.id.button_listview);
 		setClickListener(listViewButton, ListViewActivity.class);
 		
+		//自定义listview,手机联系人列表
+		Button contactsButton = (Button)findViewById(R.id.button_contacts_listview);
+		setClickListener(contactsButton, ContactsListActivity.class);
+		
+		//画廊Gallery
+		Button galleryButton = (Button)findViewById(R.id.button_gallery);
+		setClickListener(galleryButton, GalleryActivity.class);
+		
 		
 		
 	}

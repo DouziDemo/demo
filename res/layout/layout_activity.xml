@@ -111,6 +111,18 @@
             android:layout_height="wrap_content"
             android:text="学生列表（ListView）" />
         
+        <Button
+            android:id="@+id/button_contacts_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手机联系人列表（自定义ListView）" />
+        
+         <Button
+            android:id="@+id/button_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="画廊（Gallery）" />
+        
     </LinearLayout>
 
 </ScrollView>
