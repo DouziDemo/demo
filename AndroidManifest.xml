@@ -144,6 +144,11 @@
             android:name=".GridViewActivity"
             android:label="GridViewActivity" >
         </activity>
+        
+        <activity
+            android:name=".GridViewFilesActivity"
+            android:label="GridViewFilesActivity" >
+        </activity>
     </application>
 
 </manifest>

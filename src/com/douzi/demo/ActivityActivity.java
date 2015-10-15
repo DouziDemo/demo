@@ -184,6 +184,9 @@ public class ActivityActivity extends Activity
 		//表格
 		Button gridViewButton = (Button)findViewById(R.id.button_gridview);
 		setClickListener(gridViewButton, GridViewActivity.class);
+		//表格(自定义apater)
+		Button gridViewFilesButton = (Button)findViewById(R.id.button_gridview_files);
+		setClickListener(gridViewFilesButton, GridViewFilesActivity.class);
 		
 		
 		
