@@ -179,5 +179,10 @@
             android:name=".MenuActivity"
             android:label="MenuActivity" >
         </activity>
+        
+         <activity
+            android:name=".SubMenuActivity"
+            android:label="SubMenuActivity" >
+        </activity>
     </application>
 </manifest>
