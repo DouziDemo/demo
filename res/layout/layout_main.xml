@@ -11,6 +11,12 @@
         android:text="Activity" />
     
     <Button
+        android:id="@+id/button_activity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity2" />
+    
+    <Button
         android:id="@+id/button_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

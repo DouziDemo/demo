@@ -164,5 +164,15 @@
             android:name=".GalleryActivity"
             android:label="GalleryActivity" >
         </activity>
+        
+         <activity
+            android:name=".ActivityActivity2"
+            android:label="ActivityActivity2" >
+        </activity>
+        
+         <activity
+            android:name=".MycoverflowActivity"
+            android:label="MycoverflowActivity" >
+        </activity>
     </application>
 </manifest>
