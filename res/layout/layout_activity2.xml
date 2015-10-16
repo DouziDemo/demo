@@ -32,6 +32,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="弹出菜单 （popmenu）" />
+          
+          <Button
+            android:id="@+id/button_simulate_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="伪菜单 （SimulateMenuActivity）" />
 
         
     </LinearLayout>

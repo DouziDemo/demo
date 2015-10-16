@@ -176,18 +176,23 @@
         </activity>
         
          <activity
-            android:name=".MenuActivity"
+            android:name="com.douzi.demo.menu.MenuActivity"
             android:label="MenuActivity" >
         </activity>
         
          <activity
-            android:name=".SubMenuActivity"
+            android:name="com.douzi.demo.menu.SubMenuActivity"
             android:label="SubMenuActivity" >
         </activity>
         
          <activity
-            android:name=".PopMenuActivity"
+            android:name="com.douzi.demo.menu.PopMenuActivity"
             android:label="PopMenuActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.menu.SimulateMenuActivity"
+            android:label="伪菜单(SimulateMenuActivity)" >
+        </activity>
+         
     </application>
 </manifest>

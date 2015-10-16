@@ -1,4 +1,7 @@
-package com.douzi.demo;
+package com.douzi.demo.menu;
+
+import com.douzi.demo.R;
+import com.douzi.demo.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;
