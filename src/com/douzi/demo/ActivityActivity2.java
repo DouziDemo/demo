@@ -15,5 +15,8 @@ public class ActivityActivity2 extends Activity
 		
 		//Iphone Coverflow
 		DouziUtil.setOnclickListener(findViewById(R.id.button_coverflow), ActivityActivity2.this, MycoverflowActivity.class);
+		
+		//菜单menu
+		DouziUtil.setOnclickListener(findViewById(R.id.button_menu), ActivityActivity2.this, MenuActivity.class);
 	}
 }

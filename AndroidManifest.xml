@@ -174,5 +174,10 @@
             android:name=".MycoverflowActivity"
             android:label="MycoverflowActivity" >
         </activity>
+        
+         <activity
+            android:name=".MenuActivity"
+            android:label="MenuActivity" >
+        </activity>
     </application>
 </manifest>
