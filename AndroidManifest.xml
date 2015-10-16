@@ -184,5 +184,10 @@
             android:name=".SubMenuActivity"
             android:label="SubMenuActivity" >
         </activity>
+        
+         <activity
+            android:name=".PopMenuActivity"
+            android:label="PopMenuActivity" >
+        </activity>
     </application>
 </manifest>

@@ -21,5 +21,8 @@ public class ActivityActivity2 extends Activity
 		
 		//子菜单menu
 		DouziUtil.setOnclickListener(findViewById(R.id.button_submenu), ActivityActivity2.this, SubMenuActivity.class);
+		
+		//弹出菜单menu
+		DouziUtil.setOnclickListener(findViewById(R.id.button_popmenu), ActivityActivity2.this, PopMenuActivity.class);
 	}
 }
