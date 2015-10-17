@@ -44,6 +44,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Popup菜单2 （PopupMenuActivity）" />
+          
+          <Button
+            android:id="@+id/button_popup_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 弹出窗口（PopupWindow）" />
 
         
     </LinearLayout>

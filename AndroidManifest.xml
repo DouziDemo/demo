@@ -197,6 +197,9 @@
             android:name="com.douzi.demo.menu.PopupMenuActivity"
             android:label="PopupMenu菜单(PopupMenuActivity)" >
         </activity>
-         
+         <activity
+            android:name="com.douzi.demo.menu.PopupWindowActivity"
+            android:label="弹出窗口(PopupWindowActivity)" >
+        </activity>
     </application>
 </manifest>

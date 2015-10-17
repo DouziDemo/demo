@@ -3,6 +3,7 @@ package com.douzi.demo;
 import com.douzi.demo.menu.MenuActivity;
 import com.douzi.demo.menu.PopMenuActivity;
 import com.douzi.demo.menu.PopupMenuActivity;
+import com.douzi.demo.menu.PopupWindowActivity;
 import com.douzi.demo.menu.SimulateMenuActivity;
 import com.douzi.demo.menu.SubMenuActivity;
 import com.douzi.demo.utils.DouziUtil;
@@ -33,6 +34,8 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_simulate_menu), ActivityActivity2.this, SimulateMenuActivity.class);
 		//弹出菜单menu2
 		DouziUtil.setOnclickListener(findViewById(R.id.button_popup_menu), ActivityActivity2.this, PopupMenuActivity.class);
+		//弹出窗口popupwindow
+		DouziUtil.setOnclickListener(findViewById(R.id.button_popup_window), ActivityActivity2.this, PopupWindowActivity.class);
 		
 	}
 }
