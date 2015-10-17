@@ -182,4 +182,7 @@
 	    <item>田七</item>
 	</string-array>
 	
+	<string name="send">发送邮件</string>
+	<string name="look">阅读邮件</string>
+	<string name="delete">删除邮件</string>
 </resources>

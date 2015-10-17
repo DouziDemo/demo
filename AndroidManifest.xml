@@ -193,6 +193,10 @@
             android:name="com.douzi.demo.menu.SimulateMenuActivity"
             android:label="伪菜单(SimulateMenuActivity)" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.menu.PopupMenuActivity"
+            android:label="PopupMenu菜单(PopupMenuActivity)" >
+        </activity>
          
     </application>
 </manifest>
