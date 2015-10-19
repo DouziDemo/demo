@@ -6,6 +6,7 @@ import com.douzi.demo.menu.PopupMenuActivity;
 import com.douzi.demo.menu.PopupWindowActivity;
 import com.douzi.demo.menu.SimulateMenuActivity;
 import com.douzi.demo.menu.SubMenuActivity;
+import com.douzi.demo.qq.QQMainActivity;
 import com.douzi.demo.utils.DouziUtil;
 
 import android.app.Activity;
@@ -36,6 +37,8 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_popup_menu), ActivityActivity2.this, PopupMenuActivity.class);
 		//弹出窗口popupwindow
 		DouziUtil.setOnclickListener(findViewById(R.id.button_popup_window), ActivityActivity2.this, PopupWindowActivity.class);
+		//qq标签效果
+		DouziUtil.setOnclickListener(findViewById(R.id.button_qq), ActivityActivity2.this, QQMainActivity.class);
 		
 	}
 }

@@ -201,5 +201,23 @@
             android:name="com.douzi.demo.menu.PopupWindowActivity"
             android:label="弹出窗口(PopupWindowActivity)" >
         </activity>
+        
+         <activity
+            android:name="com.douzi.demo.qq.MyDiscussionActivity"
+            android:label="MyDiscussionActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.qq.MyFriendActivity"
+            android:label="MyFriendActivity" >
+        </activity>
+        <activity
+            android:name="com.douzi.demo.qq.MyGroupActivity"
+            android:label="MyGroupActivity" >
+        </activity>
+        <activity
+            android:name="com.douzi.demo.qq.QQMainActivity"
+            android:label="QQMainActivity" >
+        </activity>
+         
     </application>
 </manifest>
