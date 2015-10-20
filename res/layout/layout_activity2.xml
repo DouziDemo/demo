@@ -61,6 +61,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="仿新浪微博的主页效果（底部tab）" />
+		
+		<Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出程序的例子" />
         
     </LinearLayout>
 

@@ -42,6 +42,8 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_qq), ActivityActivity2.this, QQMainActivity.class);
 		//仿新浪微博的主页效果
 		DouziUtil.setOnclickListener(findViewById(R.id.button_weibo), ActivityActivity2.this, WeiboActivity.class);
+		//退出程序的例子
+		DouziUtil.setOnclickListener(findViewById(R.id.button_back), ActivityActivity2.this, BackActivity.class);
 		
 	}
 }

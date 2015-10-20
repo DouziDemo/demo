@@ -15,12 +15,16 @@ public class WeiboActivity extends TabActivity
 	private TabHost mHost;
 	private RadioGroup radioGroup;
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_weibo_tabhost);
+		//对应 android:id="@android:id/tabhost"
 		mHost = getTabHost();
+		//addTab()对应 android:id="@android:id/tabs"，但是这个tabs又设置了android:visibility="gone"，表示不显示tabs
+		//setContent(Intent)对应android:id="@android:id/tabcontent"
 		mHost.addTab(mHost.newTabSpec("ONE").setIndicator("ONE").setContent(new Intent(this, OneActivity.class)));
 		mHost.addTab(mHost.newTabSpec("TWO").setIndicator("TWO").setContent(new Intent(this, TwoActivity.class)));
 		mHost.addTab(mHost.newTabSpec("THREE").setIndicator("THREE").setContent(new Intent(this, ThreeActivity.class)));

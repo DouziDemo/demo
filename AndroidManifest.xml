@@ -5,7 +5,7 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -130,28 +130,23 @@
             android:name=".AutoCompleteActivity"
             android:label="AutoCompleteActivity" >
         </activity>
-        
         <activity
             android:name=".MultiAutoCompleteActivity"
             android:label="MultiAutoCompleteActivity" >
         </activity>
-        
         <activity
             android:name=".SpinnerActivity"
             android:label="SpinnerActivity" >
         </activity>
-        
         <activity
             android:name=".GridViewActivity"
             android:label="GridViewActivity" >
         </activity>
-        
         <activity
             android:name=".GridViewFilesActivity"
             android:label="GridViewFilesActivity" >
         </activity>
-        
-         <activity
+        <activity
             android:name=".ListViewActivity"
             android:label="ListViewActivity" >
         </activity>
@@ -159,33 +154,27 @@
             android:name=".ContactsListActivity"
             android:label="ContactsListActivity" >
         </activity>
-        
         <activity
             android:name=".GalleryActivity"
             android:label="GalleryActivity" >
         </activity>
-        
-         <activity
+        <activity
             android:name=".ActivityActivity2"
             android:label="ActivityActivity2" >
         </activity>
-        
-         <activity
+        <activity
             android:name=".MycoverflowActivity"
             android:label="MycoverflowActivity" >
         </activity>
-        
-         <activity
+        <activity
             android:name="com.douzi.demo.menu.MenuActivity"
             android:label="MenuActivity" >
         </activity>
-        
-         <activity
+        <activity
             android:name="com.douzi.demo.menu.SubMenuActivity"
             android:label="SubMenuActivity" >
         </activity>
-        
-         <activity
+        <activity
             android:name="com.douzi.demo.menu.PopMenuActivity"
             android:label="PopMenuActivity" >
         </activity>
@@ -197,16 +186,15 @@
             android:name="com.douzi.demo.menu.PopupMenuActivity"
             android:label="PopupMenu菜单(PopupMenuActivity)" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.menu.PopupWindowActivity"
             android:label="弹出窗口(PopupWindowActivity)" >
         </activity>
-        
-         <activity
+        <activity
             android:name="com.douzi.demo.qq.MyDiscussionActivity"
             android:label="MyDiscussionActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.qq.MyFriendActivity"
             android:label="MyFriendActivity" >
         </activity>
@@ -218,23 +206,23 @@
             android:name="com.douzi.demo.qq.QQMainActivity"
             android:label="QQMainActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.weibo.OneActivity"
             android:label="OneActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.weibo.TwoActivity"
             android:label="TwoActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.weibo.ThreeActivity"
             android:label="ThreeActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.weibo.FourActivity"
             android:label="FourActivity" >
         </activity>
-         <activity
+        <activity
             android:name="com.douzi.demo.weibo.FiveActivity"
             android:label="FiveActivity" >
         </activity>
@@ -242,6 +230,10 @@
             android:name="com.douzi.demo.weibo.WeiboActivity"
             android:label="WeiboActivity" >
         </activity>
-         
+        <activity
+            android:name=".BackActivity"
+            android:label="BackActivity" >
+        </activity>
     </application>
+
 </manifest>
