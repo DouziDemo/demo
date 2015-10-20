@@ -218,6 +218,30 @@
             android:name="com.douzi.demo.qq.QQMainActivity"
             android:label="QQMainActivity" >
         </activity>
+         <activity
+            android:name="com.douzi.demo.weibo.OneActivity"
+            android:label="OneActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.weibo.TwoActivity"
+            android:label="TwoActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.weibo.ThreeActivity"
+            android:label="ThreeActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.weibo.FourActivity"
+            android:label="FourActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.weibo.FiveActivity"
+            android:label="FiveActivity" >
+        </activity>
+        <activity
+            android:name="com.douzi.demo.weibo.WeiboActivity"
+            android:label="WeiboActivity" >
+        </activity>
          
     </application>
 </manifest>

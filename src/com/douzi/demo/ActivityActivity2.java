@@ -8,6 +8,7 @@ import com.douzi.demo.menu.SimulateMenuActivity;
 import com.douzi.demo.menu.SubMenuActivity;
 import com.douzi.demo.qq.QQMainActivity;
 import com.douzi.demo.utils.DouziUtil;
+import com.douzi.demo.weibo.WeiboActivity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -39,6 +40,8 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_popup_window), ActivityActivity2.this, PopupWindowActivity.class);
 		//qq标签效果
 		DouziUtil.setOnclickListener(findViewById(R.id.button_qq), ActivityActivity2.this, QQMainActivity.class);
+		//仿新浪微博的主页效果
+		DouziUtil.setOnclickListener(findViewById(R.id.button_weibo), ActivityActivity2.this, WeiboActivity.class);
 		
 	}
 }

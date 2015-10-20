@@ -56,7 +56,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" qq标签效果" />
-
+		<Button
+            android:id="@+id/button_weibo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仿新浪微博的主页效果（底部tab）" />
         
     </LinearLayout>
 
