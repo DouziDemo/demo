@@ -231,9 +231,14 @@
             android:label="WeiboActivity" >
         </activity>
         <activity
-            android:name=".BackActivity"
+            android:name="com.douzi.demo.alert.BackActivity"
             android:label="BackActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.alert.CustomAlertTitleActivity"
+            android:label="CustomAlertTitleActivity" >
+        </activity>
+        
     </application>
 
 </manifest>

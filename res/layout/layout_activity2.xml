@@ -67,6 +67,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="退出程序的例子" />
+		
+		<Button
+            android:id="@+id/button_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关于的例子（自定义alert的title）" />
         
     </LinearLayout>
 
