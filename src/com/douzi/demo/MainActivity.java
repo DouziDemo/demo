@@ -39,5 +39,8 @@ public class MainActivity extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_sundy_ui),
 				MainActivity.this, SundyUIActivity.class);
 		
+		DouziUtil.setOnclickListener(findViewById(R.id.button_thread),
+				MainActivity.this, TheadDemoActivity.class);
+		
 	}
 }

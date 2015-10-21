@@ -51,6 +51,5 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_about), ActivityActivity2.this, CustomAlertTitleActivity.class);
 		//评价的例子（alert事件处理）
 		DouziUtil.setOnclickListener(findViewById(R.id.button_alert_event), ActivityActivity2.this, AlertEventActivity.class);
-		
 	}
 }

@@ -22,6 +22,12 @@
         android:layout_height="wrap_content"
         android:text="Layout" />
     
+     <Button
+        android:id="@+id/button_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线程" />
+     
     <Button
         android:id="@+id/button_sundy_ui"
         android:layout_width="match_parent"
