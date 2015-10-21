@@ -250,6 +250,11 @@
             android:name=".TheadDemoActivity"
             android:label="TheadDemoActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.sundy.ui.CustomViewActivity"
+            android:label="CustomViewActivity" >
+        </activity>
+        
     </application>
 
 </manifest>
