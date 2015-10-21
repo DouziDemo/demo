@@ -79,6 +79,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="评价的例子（alert事件处理）" />
+		
+		<Button
+            android:id="@+id/button_custom_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义Toast" />
         
     </LinearLayout>
 

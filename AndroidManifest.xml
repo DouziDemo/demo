@@ -260,6 +260,10 @@
             android:name="com.douzi.demo.thread.ImageLoadActivity"
             android:label="ImageLoadActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.CustomToastActivity"
+            android:label="CustomToastActivity" >
+        </activity>
         
     </application>
 
