@@ -1,5 +1,6 @@
 package com.douzi.demo;
 
+import com.douzi.demo.alert.AlertEventActivity;
 import com.douzi.demo.alert.BackActivity;
 import com.douzi.demo.alert.CustomAlertTitleActivity;
 import com.douzi.demo.menu.MenuActivity;
@@ -48,6 +49,8 @@ public class ActivityActivity2 extends Activity
 		DouziUtil.setOnclickListener(findViewById(R.id.button_back), ActivityActivity2.this, BackActivity.class);
 		//关于的例子（自定义alert的title）
 		DouziUtil.setOnclickListener(findViewById(R.id.button_about), ActivityActivity2.this, CustomAlertTitleActivity.class);
+		//评价的例子（alert事件处理）
+		DouziUtil.setOnclickListener(findViewById(R.id.button_alert_event), ActivityActivity2.this, AlertEventActivity.class);
 		
 	}
 }

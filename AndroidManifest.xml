@@ -238,7 +238,10 @@
             android:name="com.douzi.demo.alert.CustomAlertTitleActivity"
             android:label="CustomAlertTitleActivity" >
         </activity>
-        
+        <activity
+            android:name="com.douzi.demo.alert.AlertEventActivity"
+            android:label="AlertEventActivity" >
+        </activity>
     </application>
 
 </manifest>
