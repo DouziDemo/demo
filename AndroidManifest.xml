@@ -264,6 +264,14 @@
             android:name="com.douzi.demo.CustomToastActivity"
             android:label="CustomToastActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.thread.NotificationActivity" 
+            android:label="NotificationActivity" >
+        </activity>
+         <activity
+            android:name="com.douzi.demo.thread.LoadingNotificationActivity" 
+            android:label="LoadingNotificationActivity" >
+        </activity>
         
     </application>
 
