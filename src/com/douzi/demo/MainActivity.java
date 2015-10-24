@@ -30,17 +30,20 @@ public class MainActivity extends Activity
 				startActivity(_Intent);
 			}
 		});
-		DouziUtil.setOnclickListener (findViewById(R.id.button_activity2),
+		DouziUtil.setOnclickListener(findViewById(R.id.button_activity2),
 				MainActivity.this, ActivityActivity2.class);
 
 		DouziUtil.setOnclickListener(findViewById(R.id.button_layout),
 				MainActivity.this, LayoutActivity.class);
 
+		DouziUtil.setOnclickListener(findViewById(R.id.button_event),
+				MainActivity.this, EventActivity.class);
+
 		DouziUtil.setOnclickListener(findViewById(R.id.button_sundy_ui),
 				MainActivity.this, SundyUIActivity.class);
-		
+
 		DouziUtil.setOnclickListener(findViewById(R.id.button_thread),
 				MainActivity.this, TheadDemoActivity.class);
-		
+
 	}
 }

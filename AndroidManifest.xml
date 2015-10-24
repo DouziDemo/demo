@@ -272,6 +272,18 @@
             android:name="com.douzi.demo.thread.LoadingNotificationActivity" 
             android:label="LoadingNotificationActivity" >
         </activity>
+        <activity
+            android:name=".EventActivity" 
+            android:label="EventActivity" >
+        </activity>
+         <activity
+            android:name=".event.ValidateLoginNameActivity" 
+            android:label="ValidateLoginNameActivity" >
+        </activity>
+        <activity
+            android:name=".event.CharGameActivity" 
+            android:label="CharGameActivity" >
+        </activity>
         
     </application>
 

@@ -28,6 +28,12 @@
         android:layout_height="wrap_content"
         android:text="线程" />
      
+     <Button
+        android:id="@+id/button_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事件" />
+     
     <Button
         android:id="@+id/button_sundy_ui"
         android:layout_width="match_parent"

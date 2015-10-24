@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_event_char_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have a dream that one day this nation will rise up and live out hte true meaning of its creed, we hold these truths to be self-evident, that all men are created equal." />
+
+</LinearLayout>
