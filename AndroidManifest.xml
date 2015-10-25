@@ -284,6 +284,10 @@
             android:name=".event.CharGameActivity" 
             android:label="CharGameActivity" >
         </activity>
+        <activity
+            android:name=".event.AEventActivity" 
+            android:label="AEventActivity" >
+        </activity>
         
     </application>
 

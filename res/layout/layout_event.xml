@@ -21,6 +21,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="打字游戏" />
+        
+        <Button
+            android:id="@+id/button_event_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按钮的快捷键" />
     </LinearLayout>
 
 </ScrollView>
