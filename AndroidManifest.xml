@@ -288,6 +288,10 @@
             android:name=".event.AEventActivity" 
             android:label="AEventActivity" >
         </activity>
+        <activity
+            android:name=".event.XYActivity" 
+            android:label="XYActivity" >
+        </activity>
         
     </application>
 
