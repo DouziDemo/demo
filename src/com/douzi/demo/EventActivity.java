@@ -2,6 +2,7 @@ package com.douzi.demo;
 
 import com.douzi.demo.event.AEventActivity;
 import com.douzi.demo.event.CharGameActivity;
+import com.douzi.demo.event.PageLoadActivity;
 import com.douzi.demo.event.ValidateLoginNameActivity;
 import com.douzi.demo.event.XYActivity;
 import com.douzi.demo.utils.DouziUtil;
@@ -29,5 +30,9 @@ public class EventActivity extends Activity
 	    //获取XY坐标
 		DouziUtil.setOnclickListener(findViewById(R.id.button_event_xy),
 							EventActivity.this, XYActivity.class);
+		
+		//window焦点事件
+		DouziUtil.setOnclickListener(findViewById(R.id.button_event_onwindowfocuschanged),
+									EventActivity.this, PageLoadActivity.class);
 	}
 }

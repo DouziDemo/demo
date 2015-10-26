@@ -292,6 +292,10 @@
             android:name=".event.XYActivity" 
             android:label="XYActivity" >
         </activity>
+        <activity
+            android:name=".event.PageLoadActivity" 
+            android:label="PageLoadActivity" >
+        </activity>
         
     </application>
 
