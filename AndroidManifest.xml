@@ -296,7 +296,11 @@
             android:name=".event.PageLoadActivity" 
             android:label="PageLoadActivity" >
         </activity>
-        
+        <activity
+            android:name=".event.AddContactsActivity" 
+            android:label="AddContactsActivity" >
+        </activity>
+
     </application>
 
 </manifest>

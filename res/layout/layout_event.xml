@@ -38,6 +38,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Activity内容加载完毕提示(onwindowfocuschanged)" />
+          <Button
+            android:id="@+id/button_event_oncontentchanged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加联系人(onContentChanged)" />
         
     </LinearLayout>
 
