@@ -43,6 +43,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="添加联系人(onContentChanged)" />
+          <Button
+            android:id="@+id/button_event_see_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="宝宝看图识字软件" />
         
     </LinearLayout>
 

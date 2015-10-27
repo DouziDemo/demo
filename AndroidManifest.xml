@@ -300,7 +300,9 @@
             android:name=".event.AddContactsActivity" 
             android:label="AddContactsActivity" >
         </activity>
-
+        <activity
+            android:name=".event.SeeImageActivity" 
+            android:label="SeeImageActivity" >
+        </activity>
     </application>
-
 </manifest>
