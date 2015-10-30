@@ -48,6 +48,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="宝宝看图识字软件" />
+          
+           <Button
+            android:id="@+id/button_event_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拖动事件" />
         
     </LinearLayout>
 

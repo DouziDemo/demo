@@ -304,5 +304,10 @@
             android:name=".event.SeeImageActivity" 
             android:label="SeeImageActivity" >
         </activity>
+        <activity
+            android:name=".event.DragActivity" 
+            android:label="DragActivity" >
+        </activity>
+        
     </application>
 </manifest>
