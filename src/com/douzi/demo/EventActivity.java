@@ -4,6 +4,7 @@ import com.douzi.demo.event.AEventActivity;
 import com.douzi.demo.event.AddContactsActivity;
 import com.douzi.demo.event.CharGameActivity;
 import com.douzi.demo.event.DragActivity;
+import com.douzi.demo.event.EmailValidActivity;
 import com.douzi.demo.event.PageLoadActivity;
 import com.douzi.demo.event.SeeImageActivity;
 import com.douzi.demo.event.ValidateLoginNameActivity;
@@ -46,6 +47,9 @@ public class EventActivity extends Activity
 		//拖动事件
 		DouziUtil.setOnclickListener(findViewById(R.id.button_event_drag),
 															EventActivity.this, DragActivity.class);
+		//email检测
+		DouziUtil.setOnclickListener(findViewById(R.id.button_event_email),
+																	EventActivity.this, EmailValidActivity.class);
 		
 	}
 }

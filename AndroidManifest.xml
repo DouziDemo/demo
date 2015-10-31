@@ -308,6 +308,10 @@
             android:name=".event.DragActivity" 
             android:label="DragActivity" >
         </activity>
+        <activity
+            android:name=".event.EmailValidActivity" 
+            android:label="EmailValidActivity" >
+        </activity>
         
     </application>
 </manifest>

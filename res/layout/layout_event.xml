@@ -55,6 +55,11 @@
             android:layout_height="wrap_content"
             android:text="拖动事件" />
         
+           <Button
+            android:id="@+id/button_event_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email格式的检测" />
     </LinearLayout>
 
 </ScrollView>
