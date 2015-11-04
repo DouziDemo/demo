@@ -60,6 +60,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email格式的检测" />
+           
+           <Button
+            android:id="@+id/button_image_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片的滑动效果" />
+            <Button
+            android:id="@+id/button_simple_paint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简易画板" />
+            
+            <Button
+            android:id="@+id/button_viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滑动（ViewFlipper）效果" />
     </LinearLayout>
 
 </ScrollView>

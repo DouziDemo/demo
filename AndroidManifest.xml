@@ -312,6 +312,18 @@
             android:name=".event.EmailValidActivity" 
             android:label="EmailValidActivity" >
         </activity>
+        <activity
+            android:name="com.douzi.demo.event.ImageSwitchActivity" 
+            android:label="ImageSwitchActivity" >
+        </activity>
+        <activity
+            android:name="com.douzi.demo.event.PaintActivity" 
+            android:label="PaintActivity" >
+        </activity>
+        <activity
+            android:name="com.douzi.demo.event.ViewFlipperActivity" 
+            android:label="ViewFlipperActivity" >
+        </activity>
         
     </application>
 </manifest>
