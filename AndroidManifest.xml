@@ -325,5 +325,9 @@
             android:label="ViewFlipperActivity" >
         </activity>
         
+        <activity
+            android:name="com.douzi.demo.sundy.ui.FormWidgetActivity" 
+            android:label="FormWidgetActivity" >
+        </activity>
     </application>
 </manifest>
